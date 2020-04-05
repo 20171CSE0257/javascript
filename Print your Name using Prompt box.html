@@ -1,0 +1,23 @@
+<html>
+ <head>
+  <title>Print Your Name</title>
+ </head>
+  <body>
+    <script>
+     function show()
+	 {
+	   var x=window.prompt("Enter Your Name");
+	   
+	   if(x==null||x=="")
+	    {
+	      show();
+	    }
+		else
+		 alert(x);
+	 }
+	</script>
+	<button onclick="show()">Click to print your name</button>
+  </body>
+  </html>
+	
+	  
